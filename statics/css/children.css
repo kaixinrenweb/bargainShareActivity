@@ -1,0 +1,337 @@
+@charset "UTF-8";
+
+.goods-sliders img {
+	width: 100%;
+}
+
+/* limit-time */
+.limit-times {
+	width: 100%;
+	height: 2.34rem;
+	background: url(../images/common/limit-bg.jpg) no-repeat;
+	background-size: cover;
+	padding-top: .77rem;
+	box-sizing: border-box;
+}
+.limit-times>p {
+	font: .36rem/.8rem "微软雅黑";
+	color: #fff;
+	text-align: center;
+	height: .8rem;
+}
+
+/* goods-name */
+.goods-name {
+	height: 3rem;
+	background: url(../images/common/name-bg.jpg) no-repeat;
+	background-size: cover;
+	padding-top: .96rem;
+	box-sizing: border-box;
+}
+.goods-name>h3 {
+	float: right;
+	height: .35rem;
+	margin-right: 2.74rem;
+	color: #fe7756;
+	font: .35rem/1 "微软雅黑";
+}
+.goods-name>p {
+	margin-top: .77rem;
+	text-align: center;
+	color: #333;
+	font: .26rem/1 "微软雅黑";
+}
+.goods-name>p>span {
+	color: #fe7756;
+}
+
+
+/* bargain-ctn */
+.bargain-ctn {
+	height: 3.7rem;
+	background: url(../images/common/bargain-bg.jpg) no-repeat;
+	background-size: cover;
+	padding-top: .72rem;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.bargain-price {
+	height: .64rem;
+}
+.prices {
+	width: 1.1rem;
+}
+.prices>p {
+	font: .24rem/.32rem "微软雅黑";
+	color: #333;
+	text-align: center;
+}
+.center-ctn {
+	width: 5.3rem;
+	padding-top: .17rem;
+}
+.center-ctn>p {
+	height: .3rem;
+	box-sizing: border-box;
+	border: 2px solid #fe5c43;
+	border-radius: .15rem;
+	border-bottom-color: #fe7756;
+	background-color: #fff;
+	position: relative;
+}
+.bargain-circle {
+	position: absolute;
+	height: .22rem;
+	left: 0;
+	top: 0;
+	/* width: 1rem; */
+	background-color: #ffa207;
+	border-radius: .15rem 0 0 .15rem;
+	padding-right: .15rem;
+	transition: width 1s;
+}
+.bargain-after {
+	content: "";
+	position: absolute;
+	right: -0.15rem;
+	top: -0.05rem;
+	width: .3rem;
+	height: .3rem;
+	background: url(../images/common/position-circle.png) no-repeat;
+	background-size: cover;
+	z-index: 10;
+}
+.bargain-position {
+	position: absolute;
+	top: -0.82rem;
+	left: 0;
+	width: 2rem;
+	height: .72rem;
+	padding-left: .4rem;
+	box-sizing: border-box;
+}
+.bargain-position:before {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: .16rem;
+	width: .3rem;
+	height: .37rem;
+	background: url(../images/common/position-tag.png) no-repeat;
+	background-size: cover;
+}
+.bargain-position>span {
+	display: block;
+	font: .2rem/.24rem "微软雅黑";
+	color: #fe5c43;
+}
+
+.bargain-btns {
+	margin-top: 1rem;
+	padding: 0 .65rem;
+}
+.bargain-btns a {
+	width: 2.8rem;
+	height: .6rem;
+	background-color: #d42f32;
+	text-align: center;
+	color: #fff;
+	box-sizing: border-box;
+	padding: 2px;
+}
+.bargain-btns a.active {
+	background-color: #bfbfbf;
+}
+.bargain-btns a span {
+	display: block;
+	height: .44rem;
+	border: 1px solid #fff;
+	font: .28rem/.44rem "微软雅黑";
+}
+
+
+/* bargain-friends */
+.bargain-friends {
+	height: 4.5rem;
+	background: url(../images/common/friends-bg.jpg) no-repeat;
+	background-size: cover;
+	padding: 2.06rem .45rem 0;
+	box-sizing: border-box;
+}
+.bargain-friends ul {
+	width: 3.3rem;
+	box-sizing: border-box;
+	padding-left: .3rem;
+	height: 2.2rem;
+	overflow: scroll;
+}
+.bargain-friends ul li {
+	font: .2rem/.44rem "微软雅黑";
+	height: .44rem;
+	color: #333;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+
+/* bargain-step */
+.bargain-step {
+	height: 4.07rem;
+}
+.bargain-step>img {
+	width: 100%;
+	height: 100%;
+}
+
+
+/* goods-details */
+.goods-details {
+	position: relative;
+	padding: .6rem .2rem 1.5rem;
+}
+.goods-details:before {
+	content: "";
+	position: absolute;
+	width: 3.24rem;
+	height: .54rem;
+	top: 0;
+	left: 2.13rem;
+	background: url(../images/common/detail-logo.jpg) no-repeat;
+	background-size: cover;
+}
+.goods-details>img {
+	width: 100%;
+}
+
+/* share-all */
+.share-all {
+	position: fixed;
+	top: .3rem;
+	right: .3rem;
+	width: 4.34rem;
+	height: 1.89rem;
+	background: url(../images/common/share.png) no-repeat;
+	background-size: cover;
+	z-index: 100;
+	display: none;
+}
+
+
+/* price-my-success */
+.price-my-success {
+	position: fixed;
+	z-index: 100;
+	top: 2rem;
+	left: 1.7rem;
+	width: 4.1rem;
+	height: 4.55rem;
+	background: url(../images/common/my-price-bg.png) no-repeat;
+	background-size: cover;
+	box-sizing: border-box;
+	padding-top: 3.22rem;
+	display: none;
+}
+.price-my-success>p {
+	font: .3rem/.6rem "微软雅黑";
+	color: #df002c;
+	text-align: center;
+}
+.price-my-close {
+	position: absolute;
+	right: -0.1rem;
+	top: -0.1rem;
+	width: .8rem;
+	height: .8rem;
+}
+
+
+/* red-paper */
+@keyframes swing {
+	0% {
+		transform: rotate(-45deg);
+	}
+	50% {
+		transform: rotate(45deg);
+	}
+}
+.red-paper {
+	position: fixed;
+	right: .2rem;
+	bottom: 2.5rem;
+	width: 1.18rem;
+	height: .92rem;
+	background: url(../images/goods/red-btn.png) no-repeat;
+	background-size: cover;
+	animation: 700ms swing infinite alternate both;
+	z-index: 130;
+	-webkit-tap-highlight-color: transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

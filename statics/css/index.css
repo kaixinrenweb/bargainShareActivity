@@ -1,0 +1,202 @@
+@charset "UTF-8";
+
+body, html {
+	height: 100%;
+	overflow: hidden;
+	background: url(../images/index/bg1.jpg) no-repeat;
+	background-size: cover;
+}
+
+
+/* gifts */
+.gifts {
+	margin-top: 8.06rem;
+	padding-left: .13rem;
+}
+.gifts>div {
+	width: 2.12rem;
+	height: 2.15rem;
+	margin-left: .22rem;
+}
+.gifts>div>img {
+	width: 100%;
+	height: 100%;
+}
+
+
+/* wang */
+.wang {
+	position: absolute;
+	width: 5.06rem;
+	left: 1.2rem;
+	height: 6.03rem;
+	top: 1rem;
+	z-index: 92;
+	display: none;
+}
+.wang img {
+	width: 100%;
+	height: 100%;
+}
+.wang-close {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: .55rem;
+	height: .55rem;
+}
+.wang>a {
+	position: absolute;
+	left: 1.3rem;
+	bottom: -2rem;
+	width: 2.48rem;
+	height: .72rem;
+	background: url(../images/index/wang-btn.png) no-repeat;
+	background-size: cover;
+}
+
+/* myself */
+.myself {
+	position: absolute;
+	right: .2rem;
+	bottom: .5rem;
+	width: .72rem;
+	height: .72rem;
+	z-index: 99;
+	background: #ff6e00;
+	border-radius: 50%;
+}
+.myself>img {
+	margin: .18rem 0 0 .19rem;
+	width: .34rem;
+	height: .36rem;
+}
+
+.copyright {
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: .05rem;
+	height: .3rem;
+	font: .24rem/.3rem "微软雅黑";
+	color: #eecc90;
+	text-align: center;
+}
+
+/* loading */
+.loading {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin: -0.4rem 0 0 -0.4rem;
+	z-index: 105;
+	display: none;
+}
+.loading img {
+	width: .8rem;
+	height: .8rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

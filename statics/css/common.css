@@ -1,0 +1,119 @@
+@charset "UTF-8";
+
+/* mask */
+.mask {
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, .7);
+	z-index: 90;
+	display: none;
+}
+
+
+/* footers */
+.footers {
+	position: fixed;
+	z-index: 30;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background-color: #fff;
+	padding: .32rem 0;
+	border-top: 1px solid #ddd;
+}
+.footers>a {
+	width: 50%;
+	box-sizing: border-box;
+	height: .36rem;
+	text-align: center;
+	color: #333;
+}
+.footers>a:nth-of-type(1) {
+	border-right: 1px solid #000;
+}
+.footers>a span {
+	display: inline-block;
+	vertical-align: top;
+	font: .26rem/.36rem "微软雅黑";
+	width: .6rem;
+	padding-left: .5rem;
+	position: relative;
+}
+.footers>a span:before {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: .32rem;
+	height: .36rem;
+	background: url(../images/common/footer-all.jpg) no-repeat;
+	background-size: cover;
+}
+.footers>a:nth-of-type(2) span:before {
+	width: .34rem;
+	background: url(../images/common/footer-my.jpg) no-repeat;
+	background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
