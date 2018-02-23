@@ -1,11 +1,6 @@
 /*
 Navicat MySQL Data Transfer
 
-Source Server         : ankang
-Source Server Version : 50537
-Source Host           : 115.29.99.61:3306
-Source Database       : 4g_ankangdna_com_new
-
 Target Server Type    : MYSQL
 Target Server Version : 50537
 File Encoding         : 65001
