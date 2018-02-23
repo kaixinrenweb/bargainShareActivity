@@ -5,7 +5,7 @@ require_once("apis/config/config.init.php");
 require_once("apis/config/function.php");
 require_once "apis/wxJs/jssdk.php";
 
-$jssdk = new JSSDK("wx42beab434d168a86", "d91f4fdbac054a7254cc7518ba70f72e");
+$jssdk = new JSSDK("", "");
 $signPackage = $jssdk->GetSignPackage();
 
 //接收参数
