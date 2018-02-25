@@ -26,8 +26,8 @@ if(!$code){
 	echo "当前页面错误";exit;
 }
 
-$appid     = "wx42beab434d168a86";
-$appsecret = "d91f4fdbac054a7254cc7518ba70f72e";
+$appid     = "";
+$appsecret = "";
 $accessTokenUrl = "https://api.weixin.qq.com/sns/oauth2/access_token?appid={$appid}&secret={$appsecret}&code={$code}&grant_type=authorization_code";
 $res = json_decode(https_request($accessTokenUrl),true);
 
